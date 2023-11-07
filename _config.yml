@@ -2,7 +2,7 @@
 title: 쇼마
 description: '쇼핑 마스터, 쇼핑, 추천, 제품, 가성비'
 url: 'https://sixfigure999999.github.io'
-baseurl: '/jekyll-uno'
+baseurl: 'https://sixfigure999999.github.io'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
@@ -26,7 +26,7 @@ defaults:
 # Build settings
 destination: _site
 paginate: 10
-permalink: /:year/:title/
+permalink: /posts/:title/
 markdown: kramdown
 highlighter: rouge
 
